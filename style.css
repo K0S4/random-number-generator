@@ -81,6 +81,13 @@ body {
   -moz-appearance: textfield;
 }
 
+.input:focus {
+  outline: none;
+  background-color: var(--bg-secondary);
+  border-color: var(--main-color);
+  transition: 0.2s;
+}
+
 .button {
   width: 30%;
   background-color: var(--bg-secondary);
